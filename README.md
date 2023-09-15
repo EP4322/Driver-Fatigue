@@ -56,7 +56,7 @@ Files and folders
 
 Information
 
-- Behavioural order of code running is provided in the flow chart. Each code is dependent on the last if running for the first time. The outputs of features and sequencing are already provided in the folders “Behavioural_Extraction_Files” and “Behavioural_Feature_Files”. The cropping and imaging has already been completed also, with the folders and files provided.
+- Behavioural order of code running is provided in the flow chart. Each code is dependent on the last if running for the first time. The outputs of features and sequencing should polpulate in the folders “Behavioural_Extraction_Files” and “Behavioural_Feature_Files”.
 
 [[IMAGE]](https://github.com/EP4322/Driver-Fatigue/blob/main/BehaviouralFLow.png)
 
