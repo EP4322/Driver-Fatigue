@@ -30,8 +30,6 @@ Files and folders
 “Feature_Performance.py” looks at the statistically significant features (based off t-tests) and determines whether the median values of the features are increasing or decreasing with increasing drowsiness
 “KFOLD_All_Analysis_MLP.py” is for testing k-fold data partitioning to compare with other works 
 
-* Results: The “Analysis” script is the final script to extract results.
-
 * Example: KSS789, window 15 seconds, MLP, whole trial
 Extract features with t = 15 seconds in “Emma_ECG_Drozy.py”, “EEG_ECG_Drozy.py”, “EMG_Drozy.py”, “EOG_Drozy.py”, ‘Power_EEG_DROZY.py”
 Save feature output files (pickles) to the MLP folder
