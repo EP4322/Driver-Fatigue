@@ -1,6 +1,6 @@
 # Driver-Fatigue
 
-Driver Fatigue was designed to develop and test physiological and behavioural models to predict when a driver is drowsy. The models are trained on a public Database called DROZY. 
+Driver Fatigue was designed to develop and test physiological and behavioural models to predict when a driver is drowsy. The models are trained on a public Database called DROZY [1]. 
 
 # DROZY: Physiological
 Information
@@ -77,3 +77,6 @@ Other_works_testing
 * The results are roughly presented in the word document “Testing other studies”
 * The results from Maior et al. are from the original behavioural results as we need to use LOOCV in order to be closest to their testing where they built their model on an external dataset.
 
+[1]  Q. Massoz, T. Langohr, C. Franc ̧ois, and J. G. Verly, “The ulg multimodality drowsiness database (called drozy) and examples of use,”
+in 2016 IEEE Winter Conference on Applications of Computer Vision
+(WACV). IEEE, Conference Proceedings, pp. 1–7.
