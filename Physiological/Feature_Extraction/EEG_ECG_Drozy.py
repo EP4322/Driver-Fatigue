@@ -377,7 +377,7 @@ def WE(y, level=4, wavelet='coif2'):
 
 
 #######################################################################################################################
-# Please ignore all ECG in this file. It get replaced with the features in the "Emma_ECG_Drozy.py" script in the future.
+# Please ignore all ECG in this file. It get replaced with the features in the "Extra_ECG_Drozy.py" script in the future.
 # This script takes a while to run.
 # Window is 15 or 30
 t = 15
