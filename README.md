@@ -57,7 +57,7 @@ Run the code and copy the validation subject percentages.
 Information
 * Behavioural order of code running is provided in the flow chart. Each code is dependent on the last if running for the first time. The outputs of features and sequencing are already provided in the folders “Behavioural_Extraction_Files” and “Behavioural_Feature_Files”. The cropping and imaging has already been completed also, with the folders and files provided.
 
-[IMAGE]
+[[IMAGE]](https://github.com/EP4322/Driver-Fatigue/blob/main/BehaviouralFLow.png)
 
 Files and Folders
 * Drozy_Extraction.py: Extracts the images from the videos and stores in relevant folders (folders created in the script).
