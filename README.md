@@ -56,24 +56,18 @@ Files and folders
 
 Information
 
-- Behavioural order of code running is provided in the flow chart. Each code is dependent on the last if running for the first time. The outputs of features and sequencing are already provided in the folders “Behavioural_Extraction_Files” and “Behavioural_Feature_Files”. The cropping and imaging has already been completed also, with the folders and files provided.
+- Behavioural order of code running is provided in the flow chart. Each code is dependent on the last if running for the first time. The outputs of features and sequencing should polpulate in the folders “Behavioural_Extraction_Files” and “Behavioural_Feature_Files”.
 
 [[IMAGE]](https://github.com/EP4322/Driver-Fatigue/blob/main/BehaviouralFLow.png)
 
-Files and Folders
-
+Our_method
 - Drozy_Extraction.py: Extracts the images from the videos and stores in relevant folders (folders created in the script).
 - Drozy_Number_Frames.py: Collects the number of frames per video and calculates fps. Fps is handwritten in relevant scripts.
 - Drozy_Cropping_Features.py: Crops images (saves) and collects landmark and handcrafted features (saves). Folders are created in the script.
 - Drozy_Pretrained_Features.py: Collects the features from the cropped images using a pre-trained network (ResNet/VGG)
 - Drozy_Sequencing.py: Formats the feature files (combines them) and sorts into the sequences for classification (in this case, 10 was the best)
-- Drozy_Classification.py: Classifies the data. Results are presented. Weights are saved as described in the script
+- Drozy_Classification.py: Classifies the data. Results are printed in the console. Weights are saved as described in the script
 - “Splitting_Data….py” are the same splits as the physiological. These scripts are used in “Drozy_Classification.py”. They are slightly different to account for formatting differences but follow the same concept and are extended to the physiological ones.
-
-Results
-
-- Fine_tuning: Fine tuning of the behavioural parameters.
-- Final_Results: VGG-16 and ResNet101 results for each drowsiness label. The models were run 3 times each, where the weights were kept for the best f1 score for the fine-tuning dataset. (When keeping the weights, the left out subject results were not considered).
 
 Other_works_testing
 
